@@ -12,12 +12,21 @@ public class Mascotas {
     }
 
     public void mostrarInfo() {
-        System.out.printf("[ Mascota: %s | Edad: %d años | Especie: %s ]",
+        System.out.printf("[ Mascota: %s | Edad: %d años | Especie: %s ]\n",
                 nombre, edad, raza);
     }
 
 
     public String getNombre() { return nombre; }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
     public void setNombre(String nombre) { this.nombre = nombre; }
     public void setEdad(int edad) { this.edad = edad; }
     public void setRaza(String raza) { this.raza = raza; }
